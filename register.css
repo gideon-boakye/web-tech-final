@@ -1,0 +1,96 @@
+.container{
+    background: url("images/manufacturing-inventory.jpg.webp");
+    background-size: cover;
+    height: 100vh;
+}
+div.Header {
+    text-align: center;
+    padding-top: 20px;
+}
+div.Header h1{
+    font-size: 70px;
+    width: 100%;
+    margin: 50 auto; 
+    color: rgb(151, 83, 83);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+div.Body form{
+    margin: 50px auto;
+    width:500px;
+    background: rgba(0,0,0, .5);
+    border:4px solid rgb(151, 83, 83);
+    border-radius: 8px;
+    padding: 50px;
+}
+div.loginContainer label{
+    display: block;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+div.loginContainer{
+    margin-top: 20px;
+}
+div.loginContainer input{ 
+    width: 80%;  
+    height: 30px; 
+    border: 2px solid #111111;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.8);
+    color: #000;
+}
+div.loginButton{
+    margin-top: 40px;
+    text-align: center;
+}
+div.loginButton button{
+    font-size: 25px;
+    border: none;
+    background: rgb(151, 83, 83);
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+div.loginButton button:hover {
+    background: rgb(175, 105, 105);
+}
+.accountPrompt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: aliceblue; 
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.accountPrompt a {
+    color: rgb(151, 83, 83);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.accountPrompt a:hover {
+    text-decoration: underline;
+}
